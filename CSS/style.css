@@ -595,14 +595,15 @@ img {
   margin-bottom: 20px;
 }
 .contact {
-  color: var(--text-white-color);
-  /* background-color: var(--black-bg-color); */
   font-style: normal;
   font-weight: normal;
   line-height: 1.71;
   margin-bottom: 9px;
+  color: var(--text-white-color);
 }
 .contact.link {
+  display: block;
+  margin-top: 9px;
   color: var(--contact-color);
 }
 .contact.link.call {
@@ -650,15 +651,12 @@ img {
 .social .icon {
   fill: var(--text-white-color);
 }
-/* .social .icon:hover,
-.social .icon:focus {
-  fill: var(--text-white-color);
-} */
+
 .footer {
   display: flex;
 }
 .page-footer {
-  max-width: 1600px;
+  /* max-width: auto; */
   height: 262px;
   background-color: var(--black-bg-color);
   padding-top: 60px;
